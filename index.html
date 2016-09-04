@@ -1,7 +1,13 @@
 <!doctype html>
 <html>
   <header>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <style>
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
 
 .fullscreen-bg {
     position: fixed;
@@ -23,6 +29,17 @@
 
 h1 {
   font-size: 100px;
+  line-height: 80px;
+  color: white;
+  font-family: sans-serif;
+  text-align: right;
+  margin: 0;
+  padding-right: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
   color: white;
   font-family: sans-serif;
   text-align: right;
@@ -31,7 +48,7 @@ h1 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   font-family: sans-serif;
   text-align: right;
@@ -39,7 +56,11 @@ p {
   padding-right: 20px;
 }
 
-html, body {height: 95%;}
+a {
+  color: white;
+}
+
+html, body {height: 97%;}
 
 #wrap {min-height: 100%;}
 
@@ -121,7 +142,11 @@ body:before {
   </div>
   <div id="footer">
     <h1>APH Media </h1>
-    <p>Audio, video and code from inside Parliament<br>aphlifer@gmail.com  ABN 57 481 227 377</p>
+    <h2>New journalism from inside Parliament</h2>
+    <p><i class="fa fa-microphone" aria-hidden="true"></i> <a href="https://itunes.apple.com/au/podcast/two-grumpy-hacks-australian/id1112778096?mt=2">Two Grumpy Hacks</a>
+    &nbsp;&nbsp;<i class="fa fa-industry" aria-hidden="true"></i> <a href="http://twitter.com/aphlifer">Lobbying news bot</a>
+    &nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i> aphlifer@gmail.com
+    &nbsp;&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i> ABN 57 481 227 377</p>
   </div>
 
 </body>
